@@ -1,1 +1,88 @@
-<h5>网站正在制作中请稍候<h5>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安卓14风格博客</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #6200ee;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            line-height: 1.6;
+        }
+        .card-buttons {
+            margin-top: 20px;
+        }
+        .card-buttons button {
+            background-color: #6200ee;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .card-buttons button:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>树叶博客</h1>
+    </div>
+    <div class="container">
+        <!-- 卡片1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/800x400" alt="示例图片">
+            <h2>博客文章标题1</h2>
+            <p>这是第一篇博客文章的内容。你可以在这里写一些关于你的文章的介绍或者相关信息。</p>
+            <div class="card-buttons">
+                <button onclick="alert('查看更多文章')">查看更多</button>
+                <button onclick="alert('分享文章')">分享</button>
+            </div>
+        </div>
+        <!-- 卡片2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/800x400" alt="示例图片">
+            <h2>博客文章标题2</h2>
+            <p>这是第二篇博客文章的内容。你可以在这里写一些关于你的文章的介绍或者相关信息。</p>
+            <div class="card-buttons">
+                <button onclick="alert('查看更多文章')">查看更多</button>
+                <button onclick="alert('分享文章')">分享</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
